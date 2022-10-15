@@ -31,6 +31,16 @@ const explorer = {
       isFolder: true,
       items: [
         {
+          name:"components",
+          isFolder: true,
+          items:[
+            {
+              name:"home.js",
+              isFolder: "false",
+            },
+          ],
+        },
+        {
           name: "App.js",
           isFolder: false
         },
